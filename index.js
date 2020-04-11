@@ -3,8 +3,8 @@ function getValue(){
             event.preventDefault();
             breed = $('.searchBreed').val();
             dogBreed = breed.toLowerCase();
-            $(`.showMeDemDogsBruhBruh`).empty();            
-            fetchPics();
+            $(`.showMeDemDogsBruhBruh`).empty();          
+            fetchPics() ;
     })
 }
 
